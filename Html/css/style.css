@@ -1,0 +1,50 @@
+html {
+  background-color: gold;
+  font-size: 40px;
+}
+
+
+header {
+  border: 1px solid black;
+  padding: 0px;
+  background: orange;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: black;
+  cursor:text;
+} 
+
+ul {
+  background: rgb(207, 198, 64);
+  padding: 50px;
+  border: 1px solid black;
+}
+
+li{
+  list-style-type: square;
+}
+
+a:visited {
+  color: gray(167, 167, 207);
+}
+a:hover {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+sup {
+  font-size: medium;
+  font-weight: bold;
+}
+
+img {
+  width: 300px;
+  border: 1px solid black;
+}

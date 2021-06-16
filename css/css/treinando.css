@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+.a{
+    margin-top: 200px;
+    width: 700px;
+    height: 230px;
+    margin: auto;
+    box-shadow: 1px 1px 10px black;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 200px;
+}
+
+img{
+    margin-right: 500px;
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 1px 1px 10px black;
+}
+
+img:hover a{
+    height: 160px;
+    width: 160px;
+}
+
+.nome{
+    color: black;
+    margin-top: -130px;
+    margin-left: 130px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+}
+
+.telefone{
+    color: black;
+    margin-top: 0px;
+    margin-left: -82px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+.email{
+    color: black;
+    margin-top: 0px;
+    margin-left: 60px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.faculdade{
+    color: black;
+    margin-top: -25px;
+    margin-left: 29px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:rgb(22, 22, 63);
+}
+
+.bola{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(163, 160, 160);
+    border-radius: 200px;
+    margin-top: -192px;
+    margin-left: -700px;
+    clip-path: rect(10px, 10px, 10px, 10px);
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(207, 22, 22);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    cursor:pointer;
+    transition-duration: 0.4s;
+    box-shadow: 1px 1px 5px black;
+    
+    
+}
+
+button:hover{
+    background-color: red;
+    color: rgb(253, 234, 234);
+    box-shadow: 1px 1px 15px black;
+}
+
