@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Conversor de Temperatura</title>
+</head>
+
+<body>
+    <h3>Converta Celcius para Kelvin e Farenheit</h3>
+    <input type="number" id="T0">
+    <button onclick="conversao()">Converter</button>
+    <p id="F"></p>
+    <p id="K"></p>
+
+    <script>
+        function conversao(){
+            var C = document.getElementById("T0").value
+            var F = (C * 9/5) + 32
+            var K = C * 1 + 273
+
+            console.log(F)
+            console.log(K)
+        
+            document.getElementById("F").innerHTML = F + " Graus Farenheit";
+            document.getElementById("K").innerHTML = K + " Kelvin";
+
+        }
+    </script>
+
+</body>

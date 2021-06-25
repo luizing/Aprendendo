@@ -104,18 +104,68 @@
       window.alert("Vírus baixado com sucesso");
       }
     </script>
+
+  <!--Mostra a ultima modificação do documento-->
+  <p>Esse documento foi atualizado em <span id="data"></span>.</p>
+  <script>
+    document.getElementById("data").innerHTML = document.lastModified;
+  </script>
+
+  <!--Mostrar o título de um documento-->
+  <p>Esse documento está salvo como <span id=title> </span></p>
+  <script>
+    document.getElementById("title").innerHTML = document.title;
+  </script>
+
+  <!--Input-->
+  <h3>Saudação</h3>
+  <p>escreva seu nome</p>
+  <input type="text" id="name" value="Jhon Doe">
+  <button onclick="conversa()">Saudação</button>
+  <p id="saud">aqui</p>
+  <script>
+    function conversa(){
+      var x = document.getElementById("name").value;
+      document.getElementById("saud").innerHTML = "Oi, " + x;
+    }
+  </script>
+  <!--Senha-->
+  <h3>Senha</h3>
+  <!--
+    <script>
+    var Senha = prompt('O que cai em pé e corre deitado?');
+    if (Senha === "chuva") {
+      
+  } 
+    else{
+              window.location.replace("errorpage.html")
+          }
+      </script>
+    -->
+
+    <a href="Senha.html">Senha</a>
+
+  <!--Arrays-->
+
+    <script>
+      const lista = ["a","b","c"]
+      let lista1 = [1,2,3]
+      console.log(lista)
+      
+    </script>
+
+  <!--Onclick-->
+  <br>
+  <p onclick="document.write('1')"> clica </p>
+
+
+  <script>
+    console.log(Math.PI)
+  </script>
 <br>
 </article>
 
-<article>
-<h3>Testes</h3>
-<button type="button" onclick="mostrarC()">resultado</button>
-<p id="teste">resultado</p>
-<script>
-  function mostrarC(){
-    document.getElementById("teste").innerHTML=X;
-  }
-</script>
+
 
 </article>
 </body>

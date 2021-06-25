@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+    <div class="soma">
+        <center>
+    <h2>Soma</h2>
+    <input type="number" id="termoP" value="Primeiro valor">
+    +
+    <input type="number" id="termoS" value="Segundo valor">
+    <button onclick="soma()">=</button>
+    <p id="resultadoS">Resultado</p>
+
+    <script>
+        function soma(){
+        var a = document.getElementById("termoP").value;
+        var b = document.getElementById("termoS").value;
+
+        var x = parseInt(a);
+        var y = parseInt(b);
+        document.getElementById("resultadoS").innerHTML = x + y;
+        }
+    </script></center>
+    </div>
+    
+    <div class="m">
+        <center>
+    <h2>Multiplicação</h2>
+    <input type="number" id="Termo1" value="Primeiro Valor">
+    x
+    <input type="number" id="Termo2" value="Segundo Valor">
+    <button onclick="mult()">=</button>
+        <p id="1">Resultado</p>
+    <script>
+        function mult(){
+            var c = document.getElementById("Termo1").value;
+            var d = document.getElementById("Termo2").value;
+
+            var k = parseInt(c);
+            var j = parseInt(d);
+
+            document.getElementById("1").innerHTML = k * j;
+        }
+    </script></center>
+    </div>
+</div>
+
+</body>

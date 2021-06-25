@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+.soma{
+  
+    border: 1px solid black;
+    width: 50%;
+    height: 200px;
+    background: rgb(119, 119, 5);
+    float: left
+}
+
+
+
+.m{
+    
+    border: 1px solid black;
+    width: 50%;
+    height: 200px;
+    background: rgb(119, 119, 5);
+}

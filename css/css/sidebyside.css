@@ -1,0 +1,33 @@
+html{
+    background-color: gray;
+}
+
+.container{
+   display: inline-block;
+}
+
+.contido{
+ float: left; 
+ 
+}
+
+.esquerda{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    
+}
+
+.direita{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.right{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
